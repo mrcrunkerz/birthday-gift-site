@@ -1,0 +1,91 @@
+.body {
+  background-image: linear-gradient(rgb(115, 203, 220), rgb(219, 226, 228));
+  font-family: "Happy Monkey", cursive;
+  text-align: center;
+  color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0px 0px 1px black;
+}
+.bdayAge {
+  background-color: rgb(219, 226, 228);
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin: 5px 0px 10px 0px;
+}
+.bdayDate {
+  background-color: rgb(219, 226, 228);
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin: 0px;
+}
+.imageNick {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid rgb(219, 226, 228);
+}
+.headers {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.giftSection {
+  margin-top: 50px;
+}
+.giftTitle {
+  margin-bottom: 10px;
+}
+.giftHint {
+  margin-top: 10px;
+}
+.giftImage {
+  background-image: url(images/vinicius-amnx-amano-f9oQZOk9vnk-unsplash.jpg);
+  margin: 0px auto;
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  border: 6px solid rgb(219, 226, 228);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px black;
+}
+#giftImageHappy:hover {
+  background-image: url(images/happy.gif);
+  width: 450px;
+  height: 450px;
+}
+
+#giftImageHot:hover {
+  background-image: url(images/hot.gif);
+  width: 450px;
+  height: 450px;
+}
+#giftImageGenius:hover {
+  background-image: url(images/genius.gif);
+  width: 450px;
+  height: 450px;
+}
+#giftImageBadass:hover {
+  background-image: url(images/badass.gif);
+  width: 450px;
+  height: 450px;
+}
+#giftImageCheers {
+  height: 200px;
+}
+#giftImageCheers:hover {
+  background-image: url(images/cheers.gif);
+}
+.footer {
+  width: 400px;
+  margin: 40px auto 20px auto;
+  font-style: italic;
+  color: rgb(115, 203, 220);
+}
+a {
+  color: rgb(115, 203, 220);
+}
